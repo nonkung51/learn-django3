@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}<title>Post detail</title>{% endblock %}
+
+{% block content %}
+
+{% if single_post %}
+    <h1>{{ single_post.title }}</h1> 
+    <p>{{ single_post.body }}</p>
+{% endif %}
+
+{% endblock %}
