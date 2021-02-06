@@ -9,13 +9,13 @@ Repository นี้มีไว้สำหรับเก็บโค้ด Dj
 
 การนำ Code จาก Repos นี้ไปใช้งานใน PyCharm สามารถทำได้ 2 วิธีหลักๆ
 
-วิธีแรกทำได้โดยการดาวน์โหลดไฟล์ zip เพื่อไปใช้งานใน PyCharm ได้โดยตรง
+**วิธีแรก** ทำได้โดยการดาวน์โหลดไฟล์ zip เพื่อไปใช้งานใน PyCharm ได้โดยตรง
 
 <img src="https://github.com/nonkung51/learn-django3/blob/main/pics/download.png?raw=true" width="350">
 
 นำไฟล์ zip ที่ได้แตกไฟล์ จากนั้นเปิด PyCharm กดที่ file menu เลือก open option จากนั้นเลือก directory ที่วางไฟล์ไว้
 
-วิธีที่ 2 ทำโดยการใช้งาน git (ต้องติดตั้ง git ก่อน)
+**วิธีที่ 2** ทำโดยการใช้งาน git (ต้องติดตั้ง git ก่อน)
 ใช้คำสั่ง
 
 ```git clone https://github.com/nonkung51/learn-django3.git```
