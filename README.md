@@ -3,7 +3,7 @@ Repository นี้มีไว้สำหรับเก็บโค้ด Dj
 
 ## การเลือกดูเนื้อหาแต่ละช่วง
 
-xx แปะรูป xx
+<img src="https://github.com/nonkung51/learn-django3/blob/main/pics/branch.png?raw=true" width="350">
 
 # Installation
 
@@ -11,7 +11,7 @@ xx แปะรูป xx
 
 วิธีแรกทำได้โดยการดาวน์โหลดไฟล์ zip เพื่อไปใช้งานใน PyCharm ได้โดยตรง
 
-xx แปะรูป xx
+<img src="https://github.com/nonkung51/learn-django3/blob/main/pics/download.png?raw=true" width="350">
 
 นำไฟล์ zip ที่ได้แตกไฟล์ จากนั้นเปิด PyCharm กดที่ file menu เลือก open option จากนั้นเลือก directory ที่วางไฟล์ไว้
 
