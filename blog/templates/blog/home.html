@@ -1,24 +1,13 @@
-{% load static %}
+{% extends 'blog/base.html' %}
 
-<!DOCTYPE html>
-<html lang="en">
+{% block title %} {% endblock %}
 
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <!-- <link rel="stylesheet" type="text/css" href="{% static 'blog/css/style.css' %}"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-</head>
+{% block content %}
 
-<body>
-    {% for post in all_posts %}
-    <h1>Title: {{ post.title }}</h1>
-    <p>Body: {{ post.body }}</p>
-    {% endfor %}
-    <img src="{% static 'blog/images/logo.png' %}" height="200px" width="200px">
 
-    <!-- <script src="{% static 'blog/js/main.js' %}"></script> -->
-</body>
+{% for post in all_posts %}
+<h1>Title: {{ post.title }}</h1>
+<p>Body: {{ post.body }}</p>
+{% endfor %}
 
-</html>
+{% endblock %}
